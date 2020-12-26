@@ -1,0 +1,31 @@
+.linear-container {
+	display: flex;
+}
+.match-height {
+	min-height: 100vh;
+}
+.match-width {
+	min-width: 100vw;
+}
+.nowrap {
+	flex-wrap: nowrap;
+}
+.warp {
+	flex-wrap: wrap;
+}
+
+.vertical {
+	flex-direction: column;
+}
+
+.horizontal {
+	flex-direction: row;
+}
+
+.container-center-horizontal {
+	align-items: center;
+}
+
+.container-center-vertical {
+	justify-content: center;
+}
