@@ -4,7 +4,8 @@ import 'main/App.css';
 import LinearLayout, { MATCH_HEIGHT, MATCH_WIDTH } from 'layouts/linear/Linear';
 
 function App() {
-  const bodyContent = "App all set and working. Start the projects. It's all yours. Remember sky is not the limit";
+  const bodyContent = 'Remember sky is not the limit';
+  const projectContent = 'Start the project';
   return (
     <LinearLayout
       gravity="center"
@@ -13,7 +14,19 @@ function App() {
       style={{ background: 'black' }}
       vertical
     >
-      <p style={{ color: 'white' }}>{ bodyContent }</p>
+      <LinearLayout
+        gravity="center"
+        height={MATCH_HEIGHT}
+        width={MATCH_WIDTH}
+        style={{ background: 'black' }}
+        className="container"
+        vertical
+      >
+        <p style={{ color: 'white', fontSize: '60px' }}>K</p>
+        <p style={{ color: 'white', fontSize: '12px' }}>{ projectContent }</p>
+        <p style={{ color: 'white', fontSize: '12px' }}>{ bodyContent }</p>
+      </LinearLayout>
+
     </LinearLayout>
   );
 }
