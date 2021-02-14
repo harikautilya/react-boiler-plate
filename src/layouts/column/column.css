@@ -1,0 +1,11 @@
+.column-layout{
+	display: flex;
+	flex-flow: column wrap;
+	flex: 1 1 0px;
+}
+
+.column-center{
+	justify-content: center;
+	text-align: center;
+	align-items: center;
+}

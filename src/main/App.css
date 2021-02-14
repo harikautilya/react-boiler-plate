@@ -1,8 +1,4 @@
 .container{
-   width: 50%;
-  height: 50%;
-  border: 2px white solid;
-  border-radius: 2rem;
   padding: 4rem;
   text-align: center;
 }

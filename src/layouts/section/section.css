@@ -1,0 +1,25 @@
+.container{
+	display: flex;
+	width: 100%;
+}
+.full-screen{
+	min-height: 100vh;
+}
+.row{
+	flex-direction: row;
+}
+.column{
+	flex-direction: column;
+}
+.wrap{
+	flex-wrap: wrap;
+}
+.nowrap{
+	flex-wrap: nowrap;
+}
+.center-vertical {
+	align-items: center;
+}
+.center-horizontal {
+	justify-content: center;
+}

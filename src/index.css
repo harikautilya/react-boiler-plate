@@ -1,4 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Stalinist+One&display=swap');
+:root {
+    --primary-color: #2b3bb8; 
+    --secondary-color:#4965ff;
+    --accent-color:#b33e3e;
+}
+
 body {
   margin: 0;
   font-family: 'Stalinist One', cursive;
@@ -9,4 +15,17 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+* {
+   -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  -o-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+p {
+    margin: 0;
+    padding: 0;
+    line-height: 2.2rem;
 }
