@@ -10,7 +10,7 @@ function App() {
   const bodyContent = 'Remember sky is not the limit';
   const projectContent = 'Start the project';
   return (
-    <Section orientation="vertical" fullscreen centerVertical centerHorizontal>
+    <Section style={{ background: 'var(--primary-color)' }} orientation="vertical" fullscreen centerVertical centerHorizontal>
       <Row style={{ flexWrap: 'nowrap' }}>
         <Neomorphic>
           <Column style={{ padding: '4rem' }} center>
@@ -26,7 +26,7 @@ function App() {
             <p style={{ color: 'white', fontSize: '12px' }}>{ bodyContent }</p>
           </Column>
         </Neomorphic>
-        <Neomorphic style={{ margin: '0 3rem' }}>
+        <Neomorphic style={{ margin: '0 3rem' }} active>
           <Column style={{ padding: '4rem' }} center>
             <p style={{ color: 'white', fontSize: '60px' }}>K</p>
             <p style={{ color: 'white', fontSize: '12px' }}>{ projectContent }</p>

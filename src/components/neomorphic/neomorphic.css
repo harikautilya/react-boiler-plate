@@ -1,6 +1,6 @@
 .neomorhpic{
 	border-radius: 13px;
-	background: linear-gradient(145deg, var(--primary-color), var(--secondary-color));
+	background: var(--primary-color);
 	box-shadow:  9px 9px 20px var(--primary-color), -9px -9px 20px var(--secondary-color);
 }
 .neomorhpic-active{
