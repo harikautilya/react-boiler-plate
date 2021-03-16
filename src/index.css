@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Stalinist+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,500;1,100;1,500&display=swap');
 :root {
     --primary-color: #2b3bb8; 
     --secondary-color:#4965ff;
@@ -7,7 +7,7 @@
 
 body {
   margin: 0;
-  font-family: 'Stalinist One', cursive;
+  font-family: 'Montserrat', cursive;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
