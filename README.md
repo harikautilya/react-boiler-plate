@@ -1,9 +1,1 @@
-# Kick start bioler plate for Personal project
-
-Supports
-
-- eslint
-- ts support
-- babel loader
-- husky
-- prettier
+Frontend for the AI project
