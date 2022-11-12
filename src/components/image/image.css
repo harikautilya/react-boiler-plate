@@ -1,0 +1,28 @@
+.container-img {
+	display: flex;
+	flex-flow: column wrap; 
+	align-items: center;
+	justify-content: center;
+	max-width: 100%;
+	max-height: 100%;
+}
+.item{
+	margin: 18px 2px;
+}
+.img-body{
+	display: flex;
+	flex-flow: column wrap;
+	justify-content: center;
+	align-items: center;
+	width: inherit;
+	max-width: inherit;
+}
+.img-body img{
+	max-width: inherit;
+	object-fit: fill;
+}
+@media (max-width:480px){
+	.img-body img{
+		
+	}
+}

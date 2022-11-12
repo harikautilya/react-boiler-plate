@@ -1,0 +1,38 @@
+.row-layout{
+	display: flex;
+	flex-flow: row;
+	flex-wrap: wrap;
+}
+.permenet{
+
+}
+
+.row-center{
+	justify-content: center;
+	text-align: center;
+	align-items: center;
+}
+.reverse-wrap{
+	flex-flow: row-reverse wrap;
+}
+
+@media (max-width:480px){
+	.row-layout{
+		display: flex;
+		flex-flow: column wrap;
+	}
+	.reverse-wrap{
+		flex-flow:column-reverse wrap; 
+	}
+	.row-center{
+		justify-content: center;
+		text-align: center;
+		align-items: center;
+	}
+
+	.permenet{
+		display: flex;
+		flex-flow: row;
+	}
+}
+
