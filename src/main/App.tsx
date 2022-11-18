@@ -7,11 +7,7 @@ import {
 } from 'react-router-dom';
 import 'main/App.css';
 
-import { Neomorphic } from 'components/neomorphic/neomorphic';
-import { Section } from 'layouts/section/section';
-import { Row } from 'layouts/row/row';
-import { Column } from 'layouts/column/column';
-import { Home } from 'pages/home/home';
+import { Home } from 'pages';
 
 function App() {
   return (

@@ -1,9 +1,6 @@
 import React from 'react';
 import { BaseProps, Neomorphic } from 'components';
-
-import { Section } from 'layouts/section/section';
-import { Row } from 'layouts/row/row';
-import { Column } from 'layouts/column/column';
+import { Section, Row, Column } from 'layouts';
 
 export interface HomeProps extends BaseProps {
 

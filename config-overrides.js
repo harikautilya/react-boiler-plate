@@ -5,11 +5,7 @@ const {
   addBabelPlugins,
   removeModuleScopePlugin,
   addBabelPresets,
-  addWebpackAlias,
 } = require('customize-cra');
-const { alias, configPaths } = require('react-app-rewire-alias');
-
-const aliasMap = configPaths('./tsconfig.paths.json');
 
 module.exports = override(
   ...addBabelPresets('@babel/preset-env', '@babel/preset-react'),
@@ -27,5 +23,4 @@ module.exports = override(
   ),
   disableChunk(),
   removeModuleScopePlugin(),
-  alias(aliasMap),
 );
