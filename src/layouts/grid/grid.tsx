@@ -6,6 +6,6 @@ interface GridProps {
 
 }
 
-const Grid: React.FC<GridProps> = () => (
+export const Grid: React.FC<GridProps> = () => (
   <p>Pending Support</p>
 );

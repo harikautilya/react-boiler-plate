@@ -1,6 +1,6 @@
 import React from 'react';
-import { BaseProps } from 'components/base/base';
-import { Neomorphic } from 'components/neomorphic/neomorphic';
+import { BaseProps, Neomorphic } from 'components';
+
 import { Section } from 'layouts/section/section';
 import { Row } from 'layouts/row/row';
 import { Column } from 'layouts/column/column';
